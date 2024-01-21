@@ -1,0 +1,32 @@
+// src/styles/Education.scss
+.education {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+    text-align: center;
+  
+    .education-content {
+      max-width: 800px;
+      margin: 0 auto;
+  
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+      }
+  
+      .education-item {
+        margin-bottom: 2rem;
+  
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 0.5rem;
+        }
+  
+        p {
+          font-size: 1.2rem;
+          color: #555;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+  

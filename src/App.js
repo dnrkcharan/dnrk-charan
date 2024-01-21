@@ -1,12 +1,13 @@
 // src/App.js
 import React from 'react';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Education from './components/Education';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
       <div>
         <Navbar />
         {/* <Header /> */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-        </Routes>
+        <Home />
+        <About />
+        <Education/>
+        <Projects />
+        <Footer/>
       </div>
     </Router>
   );
